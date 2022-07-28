@@ -1,9 +1,9 @@
-const { Router } = require('express');
+const { Router } = require('express')
 
 const reverseText = require('./reverseText')
 
-const router = Router();
+const router = Router()
 
-router.use('/', reverseText);
+router.use('/', reverseText)
 
-module.exports = router;
+module.exports = router

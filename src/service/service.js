@@ -1,11 +1,5 @@
-const { Router } = require("express");
-const router = Router();
-
-function reverseString(text) {
-   var newText = text.split("").reverse().join("")
-
-   return newText;
+function reverseString (text) {
+  return text.split('').reverse().join('')
 }
 
-
-module.exports = reverseString;
+module.exports = reverseString
